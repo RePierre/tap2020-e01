@@ -4,7 +4,7 @@
 
     public class DoubleSimpleRoom : Rooms
     {
-        public DoubleSimpleRoom( int nrNights):base( nrNights){
+        public DoubleSimpleRoom( int room,int nrNights):base( room,nrNights){
             }
         public override double get_price()
         {

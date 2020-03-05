@@ -3,7 +3,7 @@
    
         public class DoubleRoomWithView:Rooms
         {
-        public DoubleRoomWithView( int nrNights) : base( nrNights)
+        public DoubleRoomWithView(int room, int nrNights) : base( room,nrNights)
         {
             
         }

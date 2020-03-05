@@ -21,24 +21,24 @@ namespace Pensiune
             nrNights = int.Parse(Console.ReadLine());
             if (choice == 1)
             {
-                FamilyRoom fm1 = new FamilyRoom( nrNights);
+                FamilyRoom fm1 = new FamilyRoom(choice, nrNights);
                 Console.WriteLine("the price of your stay will sum up to:" + fm1.get_price());
             }
             if (choice == 2|| choice==3)
             {
-                DoubleSimpleRoom dsr = new DoubleSimpleRoom(nrNights);
+                DoubleSimpleRoom dsr = new DoubleSimpleRoom(choice,nrNights);
                 Console.WriteLine("the price of your stay will sum up to:" + dsr.get_price());
             }
            
             if (choice == 4 || choice == 5)
             {
-                DoubleRoomWithView dwv = new DoubleRoomWithView(nrNights);
+                DoubleRoomWithView dwv = new DoubleRoomWithView(choice,nrNights);
                 Console.WriteLine("the price of your stay will sum up to:" + dwv.get_price());
             }
 
             if (choice ==6)
             {
-                SingleAtticRoom sar = new SingleAtticRoom(nrNights);
+                SingleAtticRoom sar = new SingleAtticRoom(choice,nrNights);
                 Console.WriteLine("the price of your stay will sum up to:" + sar.get_price());
             }
 

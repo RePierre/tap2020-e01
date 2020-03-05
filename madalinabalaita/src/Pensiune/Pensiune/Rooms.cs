@@ -8,9 +8,9 @@
         protected int nrNights;
 
         public abstract double get_price();
-        public Rooms(int nrNights)
+        public Rooms(int room,int nrNights)
         {
-            
+            this.room = room;
             this.nrNights = nrNights;
         }
     }

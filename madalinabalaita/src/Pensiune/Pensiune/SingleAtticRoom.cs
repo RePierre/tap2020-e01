@@ -4,7 +4,7 @@
    
         public class SingleAtticRoom:Rooms
         {
-        public SingleAtticRoom( int nrNights) : base(nrNights)
+        public SingleAtticRoom(int room, int nrNights) : base(room,nrNights)
         {
         }
         public override double get_price()
