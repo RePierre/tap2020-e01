@@ -1,0 +1,14 @@
+1.Explicati care sunt diferentle intre tipurile valoare si tipurile referinta
+Tipurile de valoare aloca o singura  zona de memorie .Tipul referinta aloca la creare instanteii doua zone de memore: 
+zona de tip referinta(stiva),zona de tip instanta(memoria heap);
+
+2.Explicati care sunt diferentele si asemanarile intre o clasa abstracta si o interfata
+Asemanarea este ca ambele contin metode abstracte.
+Interfata are un grad de abstractizare mai mare decat clasa abstracta.Interfata nu ofera nici o implementare.
+O clasa poate mosteni o singura clasa abstracta dar poate mosteni mai multe interfete
+
+3.Enumeratii principiile POO si pentru fiecare dati o descriere sau un exemplu
+ -Incapsulare: Imbina datele si metodele pe care le proceseaza
+ -Mostenire :Subclasa mosteneste atributele si metodele clasei de baza
+ -Polimorfism:Fiecare subclasa a unei clase principale are aceeasi metoda(denumire,parametrii) dar se comporta diferit in fiecare dintr sublclase sale
+
