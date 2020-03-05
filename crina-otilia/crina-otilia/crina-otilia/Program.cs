@@ -68,7 +68,12 @@ namespace crina_otilia
             exemplul2 = Reception.Price(5, checkinEx2, checkoutEx2);
 
             Console.Write("Doua exemple sugestive: ");
-            
+            Console.Write("totalul pentru camera 1 cu chechin:2.3.2020 si checkout:10.3.2020");
+            Console.Write(exemplul1);
+
+            Console.Write("Doua exemple sugestive: ");
+            Console.Write("totalul pentru camera 5 cu chechin:22.4.2020 si checkout:24.4.2020");
+            Console.Write(exemplul2);
 
 
         }
