@@ -6,5 +6,9 @@ namespace BucovinaBusiness
 {
     class DoubleRoomSimple : Room
     {
+        public DoubleRoomSimple()
+        {
+            this.PricePerNight = 120m;
+        }
     }
 }

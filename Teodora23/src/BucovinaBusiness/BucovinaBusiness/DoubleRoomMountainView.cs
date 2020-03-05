@@ -6,6 +6,9 @@ namespace BucovinaBusiness
 {
     class DoubleRoomMountainView : Room
     {
-
+        public DoubleRoomMountainView()
+        {
+            this.PricePerNight = 150m;
+        }
     }
 }

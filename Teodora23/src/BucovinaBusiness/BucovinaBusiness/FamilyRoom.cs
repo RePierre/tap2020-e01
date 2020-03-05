@@ -6,5 +6,9 @@ namespace BucovinaBusiness
 {
     class FamilyRoom : Room
     {
+        public FamilyRoom()
+        {
+            this.PricePerNight = 200m;
+        }
     }
 }
