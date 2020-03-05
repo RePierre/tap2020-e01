@@ -1,0 +1,34 @@
+Tipul valoare:
+o variabila de tip valoare contine o instanta, respectiva instanta vietuieste intr-o
+singura zona de memorie(ocupa o singura zona de memorie)
+La tipul referinta:
+O variabila de tip referinta contine nu o instanta ci adresa de memorie a zonei ocupate de acea instanta(i.e un fel de pointer)
+
+/////////////////////
+
+O clasa abstracta este o clasa sablon care contine metode ce urmeaza a fi implementate.
+nu se pot crea instante ale unei astfel de clase
+
+Interfata abstarcta se aseamana cu clasa abstarcta dar este mai generala ea pote pur si simplu sa nu implementeze nimic
+ Cu ajutorul interfetelor este posibila simularea unei mosteniri multiple.
+Spre deosebire de clase abstarcte campurile interfetelor vor fi statice obligatoriu .
+
+///////////////////
+Incapsularea:
+O structura formata din campuri si metode va fi inglobata intr-o multime numita clasa
+fiecare clasa putand fi privita ca un dispozitiv specilizat pentru anumite actiuni.
+Folosirea claselor duce la evitarea interdependetelor intre funtnctii
+
+Mostenirea:
+ Daca dorim ca o clasa sa contina o parte din atributele si metodele unei altei clase
+si totodata sa o particularizeze (extinda) se foloseste conceptul de mostenire
+ Exeplu:
+class Persoana{
+protected string nume;
+protected int varsta;
+}
+class Angajat:Persoana{
+ int salariu;
+}
+Polimorfism:
+Putem da unei metode acelasi nume insa cu parametri diferiti.
