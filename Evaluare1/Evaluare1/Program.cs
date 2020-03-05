@@ -16,22 +16,22 @@ namespace Evaluare1
             Console.WriteLine("How many days will you stay in our Guest House?");
             int daysReserved = int.Parse(Console.ReadLine());
             if (numberRoom == 1) {
-                FamilyRoom fm = new FamilyRoom(daysReserved);
+                FamilyRoom fm = new FamilyRoom(numberRoom,daysReserved);
                 Console.WriteLine("You reserved room no. " + numberRoom + " Days Reserved: " + daysReserved + " Price: " + fm.calculateTotalPrice());
             }
             if (numberRoom == 2)
             {
-                DoubleRoom dr = new DoubleRoom(daysReserved);
+                DoubleRoom dr = new DoubleRoom(numberRoom,daysReserved);
                 Console.WriteLine("You reserved room no. " + numberRoom + " Days Reserved: " + daysReserved + " Price: " + dr.calculateTotalPrice());
             }
             if (numberRoom == 3||numberRoom==4)
             {
-                DoubleRoomMountainView drmv = new DoubleRoomMountainView(daysReserved);
+                DoubleRoomMountainView drmv = new DoubleRoomMountainView(numberRoom,daysReserved);
                 Console.WriteLine("You reserved room no. " + numberRoom + " Days Reserved: " + daysReserved + " Price: " + drmv.calculateTotalPrice());
             }
             if (numberRoom == 5||numberRoom==6)
             {
-                AtticRoom ar = new AtticRoom(daysReserved);
+                AtticRoom ar = new AtticRoom(numberRoom,daysReserved);
                 Console.WriteLine("You reserved room no. " + numberRoom + " Days Reserved: " + daysReserved + " Price: " + ar.calculateTotalPrice());
             }
         }
