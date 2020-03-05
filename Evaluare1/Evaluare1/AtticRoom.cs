@@ -7,7 +7,7 @@ namespace Evaluare1
     class AtticRoom:Room
     {
         public int price = 100;
-        public AtticRoom(int numberRoom, int daysReserved) : base(numberRoom, daysReserved) { }
+        public AtticRoom(int daysReserved) : base(daysReserved) { }
         public override double calculateTotalPrice()
         {
             if (daysReserved > 3)

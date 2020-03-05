@@ -9,8 +9,7 @@ namespace Evaluare1
         public int numberRoom;
         public int daysReserved;
 
-        public Room(int numberRoom, int daysReserved) {
-            this.numberRoom = numberRoom;
+        public Room(int daysReserved) {
             this.daysReserved = daysReserved;
         }
         public abstract double calculateTotalPrice();
