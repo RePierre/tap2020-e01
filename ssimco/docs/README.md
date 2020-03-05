@@ -16,9 +16,10 @@ O clasă abstractă poate avea metode care nu sunt abstracte, pe când la o inte
 <br>
 Enumerați principiile POO și pentru fiecare dați o descriere sau un exemplu.
 <b>
+<br>
 Încapsularea: încapsularea ar însemna să restricționăm accesul direct la unele atribute ale unui obiect și să controlăm accesul la acele atribute prin intermediul unor metode, de exemplu ar fi cele 'set' și 'get'.
-
+<br>
 Polimorfism: proprietatea ca unele obiecte să se comporte la fel, deși fiind de tipuri diferite. De exemplu ar fi două clase 'square' și 'circle' care moștenesc o clasa abstractă 'shape' care are metoda 'void draw()'. Deși sunt de tipuri diferite, am putea să le considerăm ca fiind de tipul shape și la monentul când apelăm metoda 'draw' fiecare obiect va executa metoda implementată de clasa sa.
-
+<br>
 Moștenire: unele proprietați ale claselor parinte se vor manifesta la fel ca la clasele care le moștenesc. Vor avea acces la atributele și metodele publice/protejate ale clasei parinte și să le folosească.
 </b>
