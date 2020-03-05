@@ -4,8 +4,15 @@ using System.Text;
 
 namespace Evaluare1
 {
-    class Room
+    public abstract class Room
     {
-        
+        public int numberRoom;
+        public int daysReserved;
+
+        public Room(int numberRoom, int daysReserved) {
+            this.numberRoom = numberRoom;
+            this.daysReserved = daysReserved;
+        }
+        public abstract double calculateTotalPrice();
     }
 }
