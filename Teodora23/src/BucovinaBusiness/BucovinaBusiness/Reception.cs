@@ -6,31 +6,31 @@ namespace BucovinaBusiness
 {
     class Reception
     {
-        public decimal CalculateReservationPrice(int roomType, DateTime startDate, DateTime endDate)
+        public decimal CalculateReservationPrice(string roomType, DateTime startDate, DateTime endDate)
         {
-            double numberOfDays = (endDate - startDate).TotalDays;
+            double numberOfNights = (endDate - startDate).TotalDays;
             decimal reservationPrice = 0m;
             Room room;
             switch (roomType)
             {
-                case 1:
+                case "1":
                     room = new FamilyRoom();
-                    reservationPrice = room.CalculateReservationPrice((int)numberOfDays);
+                    reservationPrice = room.CalculateReservationPrice((int)numberOfNights);
                     break;
-                case 2:
+                case "2":
                     room = new DoubleRoomSimple();
-                    reservationPrice = room.CalculateReservationPrice((int)numberOfDays);
+                    reservationPrice = room.CalculateReservationPrice((int)numberOfNights);
                     break;
-                case 3:
+                case "3":
                     room = new DoubleRoomMountainView();
-                    reservationPrice = room.CalculateReservationPrice((int)numberOfDays);
+                    reservationPrice = room.CalculateReservationPrice((int)numberOfNights);
                     break;
-                case 4:
+                case "4":
                     room = new AtticRoom();
-                    reservationPrice = room.CalculateReservationPrice((int)numberOfDays);
+                    reservationPrice = room.CalculateReservationPrice((int)numberOfNights);
                     break;
                 default:
-                    break;
+                    throw new InvalidOperationException("Please choose an existing room"); 
             }
             return reservationPrice;
         }
