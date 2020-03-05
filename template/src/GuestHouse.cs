@@ -62,6 +62,9 @@ namespace Andreea523
                     }
                    
                     break;
+                    default:
+                        throw new Exception("invalid");
+
             }
         }
     }
