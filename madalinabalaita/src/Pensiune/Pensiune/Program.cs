@@ -42,8 +42,10 @@ namespace Pensiune
                 Console.WriteLine("the price of your stay will sum up to:" + sar.get_price());
             }
 
+            
 
 
+            Console.WriteLine("Thank you for choosing us and if you want to find out more about Bucovina you will find at the reception some flyers!");
 
 
         }
