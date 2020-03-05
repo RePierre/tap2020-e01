@@ -31,11 +31,11 @@ using System.Text;
 
         if (number_days >= 4){
             decimal reducere =  0.2m * moneynight* (number_days - 3);
-            money = price - reducere;
+            money = price + reducere;
             
         }
         else money = price;
-        return moneynight;
+        return money;
         }
 
         
