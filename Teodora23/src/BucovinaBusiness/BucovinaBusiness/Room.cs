@@ -7,13 +7,13 @@ namespace BucovinaBusiness
     public abstract class Room
     {
         public decimal PricePerNight { get; protected set; }
-        protected decimal CalculateReservationPrice(int numberOfDays)
+        public decimal CalculateReservationPrice(int numberOfDays)
         {
             decimal reservationPrice;
             if (numberOfDays > 3)
             {
                 reservationPrice = 3 * this.PricePerNight;
-                reservationPrice += (numberOfDays - 3) * this.PricePerNight * 20 / 100;
+                reservationPrice += (numberOfDays - 3) * (this.PricePerNight - (this.PricePerNight * 20 / 100));
             }
             else
             {
