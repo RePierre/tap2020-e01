@@ -2,15 +2,18 @@
 
 ## Tipuri valoare și tipuri referință în `.net` ##
 Explicați care sunt diferențele între tipurile valoare și tipurile referință.
+<br>
 <b>
 Pentru tipurile valoare la creare, se aloca memorie unde se va afla valoarea sa, iar pentru tipul referință, la creare, mai întâi se aloca memorie pentru adresa sa, după care la adresa respectivă se va afla valoarea sa. Dimensiunea alocată pentru tipurile valoare depind numai de ce tip sunt, dar pentru cele referință, sunt unele pentru care variază, de exemplu ar fi instanțele la clasele de tip template.
 </b>
 ## Clase abstracte și interfețe ##
 Explicați care sunt diferențele și asemănările între o clasă abstractă și o interfață.
+<br>
 <b>
 O clasă abstractă poate avea metode care nu sunt abstracte, pe când la o interfață toate metodele sunt abstracte. O clasă poate implementa mai multe interfețe și poate moșteni doar o singură clasă abstractă. Nu se poate crea obiecte de tipul unei clase abstracte sau a unei interfețe. O clasă care moștenește/implementează o clasă abstractă/intefață, pentru a putea crea un obiect de acel tip trebuie ca să suprascrie toate metodele abstracte.
 </b>
 ## Principiile programării Orientate-Obiect ##
+<br>
 Enumerați principiile POO și pentru fiecare dați o descriere sau un exemplu.
 <b>
 Încapsularea: încapsularea ar însemna să restricționăm accesul direct la unele atribute ale unui obiect și să controlăm accesul la acele atribute prin intermediul unor metode, de exemplu ar fi cele 'set' și 'get'.
