@@ -1,0 +1,23 @@
+1.Explicati care sunt diferentele intre tipurile valoare si tipurile referinta.
+a)O variabila a unui tip valoare contine o instanta a tipului respectiv, pe cand o variabila a unui tip referinta contine adresa de memorie unde este alocata instanta.
+b)Pentru tipul valoare la crearea instantei se aloca o singura zona de memorie, pe cand la tipul referinta se aloca doua zone de memorie si anume:
+-o zona pentru adresa(Stiva)
+- o zona pentru instanta(Heap)
+c)Pentru tipul valoare dimensiunea alocata este data de tip, pe cand pentru tipul referinta dimensiunea alocata pentru instanta poate sa varieze(List<t>)
+
+
+2.Diferente si asemanari dintre clasele abstrace si interfete
+
+Diferente:
+-O clasa abstracta este mai putin abstracta decat o interfata pe cand interfata ofera cel mai mare grad de abstractizare
+-Clasa abstracta oferta o implementare implicita pentru metode si propietani iar o interfata nu ofera nicio implementare.
+-Un tip de date poate deriva dintr-o singura clasa abstracta iar la interfete un tip de date poate implementa mai multe interfete
+- nu se pot crea instante ale claselor abstracte
+
+Asemanari:
+-Ambele impun constrangeri : clasa abstracta de exemplu constructorul iar interfata asupra semnaturii metodelor.
+ 3. Principiile POO sunt : Incapsularea mostenirea si polimorfismul.
+
+Incapsularea : reprezinta imbinarea metodelor si datelor. De exemplu : vrem sa plecam la drum cu masina dar totodata verificam daca avem benzina.
+Mostenirea: Propietatile tipului parinte se pastreaza si la copii
+Polimorfismul:acelasi comportament manifestat de mai multe tipuri  
